@@ -60,15 +60,20 @@ print("Percentage: ",percentage)
 
 
 #Assign Grade to student
-if(percentage >= 85):
-    print("Grade A+")
-elif(percentage >= 75 and percentage < 85):
-    print("Grade A")
-elif(percentage >= 65 and percentage < 75):
-    print("Grade B")
-elif(percentage >= 55 and percentage < 65):
-    print("Grdae C")
-elif(percentage >= 45 and percentage < 55):
-    print("Grade D")
+scores = [ m[1] for m in data ]
+if all(score >= 35 for score in scores ):
+
+    if(percentage >= 85):
+        print("Grade A+")
+    elif(percentage >= 75 and percentage < 85):
+        print("Grade A")
+    elif(percentage >= 65 and percentage < 75):
+        print("Grade B")
+    elif(percentage >= 55 and percentage < 65):
+        print("Grdae C")
+    elif(percentage >= 45 and percentage < 55):
+        print("Grade D")
+    else:
+        print("Fail")
 else:
     print("Fail")
