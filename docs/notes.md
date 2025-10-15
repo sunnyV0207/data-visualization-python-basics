@@ -211,3 +211,6 @@ Percentage           Grade
 55 - 50                D
 <50                    Fail
 Sol:- [View Solution](../questions/question_5.py)
+
+6.Take any number of input from user and make a list with that and delete occurence of a single element entered by user from list except first occurence.
+Sol:- [View Solution](../questions/question_6.py)
