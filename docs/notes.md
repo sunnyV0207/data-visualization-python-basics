@@ -16,7 +16,7 @@ It is widely used in:
 
 ## ⚙️ Python Basics
 
-### 🧩 Comments
+#-------------------------------------------- 🧩 Comments -----------------------------------#
 ```python
 # This is a single-line comment
 
@@ -25,7 +25,7 @@ This is a
 multi-line comment
 """
 
-📥 Input and Output
+#------------------------------------- 📥 Input and Output ------------------------------#
 
 # Output
 print("Hello, World!")
@@ -35,7 +35,7 @@ name = input("Enter your name: ")
 print("Welcome,", name)
 
 
-🧮 Variables and Data Types
+#----------------------------------- 🧮 Variables and Data Types -------------------------#
 
 Python variables are created when you assign a value:
 
@@ -48,7 +48,7 @@ You can check the type of a variable using:
 print(type(x))  # <class 'int'>
 
 
-🧺 Lists in Python
+#------------------------------- 🧺 Lists in Python ----------------------------------#
 
 A List is an ordered, mutable collection that can hold elements of different data types.
 
@@ -190,9 +190,17 @@ print(matrix[0][1])  # 2
 #--------------------Questions to practice for lists-------------------------#
 
 1.WAP to print elements of list from left to right using negative indices.
+Sol:- [View Solution](../questions/question_1.py)
+
 2.WAP to print the elemnts of list from right to left using positive indices.
+Sol:- [View Solution](../questions/question_2.py)
+
 3.WAP to calculate the average of first 10 natural numbers.
+Sol:- [View Solution](../questions/question_3.py)
+
 4.WAP to calculate the average of 10 numbers entered by the user.
+Sol:-[View Solution](../questions/question_4.py)
+
 5.Create a reportcard . It must contain the name of five subjects along with marks obtained in them out of 100.
 Then calculate the total marks obtained, percentage, grade.
 Grade must be calculated as per below criteria :-
@@ -203,3 +211,4 @@ Percentage           Grade
 65 - 55                C
 55 - 50                D
 <50                    Fail
+Sol:- [View Solution](../questions/question_5.py)
