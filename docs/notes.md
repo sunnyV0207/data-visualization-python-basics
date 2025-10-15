@@ -16,7 +16,7 @@ It is widely used in:
 
 ## ⚙️ Python Basics
 
-```python
+python
 # This is a single-line comment
 
 """
@@ -24,7 +24,7 @@ This is a
 multi-line comment
 """
 
-#------------------------------------- 📥 Input and Output ------------------------------#
+# ------------------------------------- 📥 Input and Output ------------------------------#
 
 # Output
 print("Hello, World!")
@@ -34,7 +34,7 @@ name = input("Enter your name: ")
 print("Welcome,", name)
 
 
-#----------------------------------- 🧮 Variables and Data Types -------------------------#
+# ----------------------------------- 🧮 Variables and Data Types -------------------------#
 
 Python variables are created when you assign a value:
 
@@ -47,7 +47,7 @@ You can check the type of a variable using:
 print(type(x))  # <class 'int'>
 
 
-#------------------------------- 🧺 Lists in Python ----------------------------------#
+# ------------------------------- 🧺 Lists in Python ----------------------------------#
 
 A List is an ordered, mutable collection that can hold elements of different data types.
 
@@ -186,7 +186,7 @@ matrix = [[1, 2], [3, 4], [5, 6]]
 print(matrix[0][1])  # 2
 
 
-#--------------------Questions to practice for lists-------------------------#
+# --------------------Questions to practice for lists-------------------------#
 
 1.WAP to print elements of list from left to right using negative indices.
 Sol:- [View Solution](../questions/question_1.py)
