@@ -15,8 +15,6 @@ It is widely used in:
 ---
 
 ## ⚙️ Python Basics
-
-#-------------------------------------------- 🧩 Comments -----------------------------------#
 ```python
 # This is a single-line comment
 
