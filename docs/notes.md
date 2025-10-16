@@ -214,3 +214,75 @@ Sol:- [View Solution](../questions/question_5.py)
 
 6.Take any number of input from user and make a list with that and delete occurence of a single element entered by user from list except first occurence.
 Sol:- [View Solution](../questions/question_6.py)
+
+
+
+
+# ------------------------------- 🧺 String in Python ----------------------------------#
+
+String is a sequence of characters enclosed with single, double and triple quotes
+
+Syntax:- Name="Sunny Verma"
+
+🧰 String Methods (with Examples)
+
+1.isalpha():- returns True if string contains only alphabets otherwise false
+Exm:- str = "sunny"                     Exm:- str="sunny156"
+ans:- true                              Ans:- false
+
+2.isdigit():- return True if string contains only digits
+Exm:- str = "78"                     Exm:- str="sunny156"
+ans:- true                           Ans:- false
+
+3.isalnum():- return true if string contains either alphabets or numbers or both
+Exm:- str = "sunny"                     Exm:- str="sunny156"
+ans:- true                              Ans:- true
+
+4.isspace():- return true if string contains only space
+Exm:- str = " "                     Exm:- str="sunny156"
+ans:- true                              Ans:- false
+
+5.islower():- return true if string contains only smaller case letter
+Exm:- str = "sunny"                     Exm:- str="Sunny"
+ans:- true                              Ans:- false
+
+6.isupper():- return true if string contains only uppercase characters
+Exm:- str = "sunny"                     Exm:- str="SUNNY156"
+ans:- false                             Ans:- true     //bcz it do not check for digits
+
+7.istitle():- return true if string contains some words and each word has its first letter capital and rest are in small case
+Exm:- str = "Sunny"                     Exm:- str="Sunny Verma 156"
+ans:- true                             Ans:- true     //bcz it do not check for digits
+
+8.lower():- return original string in lower case
+Exm:- str = "Sunny"                     Exm:- str="Sunny Verma 156"
+ans:- "sunny"                           Ans:- "sunny verma 156"     //bcz it do not check for digits
+
+9.upper():- return original string in upper case
+Exm:- str = "Sunny"                     Exm:- str="Sunny Verma 156"
+ans:- "SUNNY"                           Ans:- "SUNNY VERMA 156"     //bcz it do not check for digits
+
+10.title():- return original string in title case
+Exm:- str = "Sunny"                     Exm:- str="sunny verma"
+ans:- "Sunny"                             Ans:- "Sunny Verma"     //bcz it do not check for digits
+
+11.swapcase():- return original string in case to convert upper to lower and vice versa
+Exm:- str = "Sunny"                     Exm:- str="sunny verma"
+ans:- "sUNNY"                             Ans:- "SUNNY VERMA"     //bcz it do not check for digits
+
+# --------------------Questions to practice for Strings -------------------------#
+
+1.WAP to count number of aphabets in given sentence.
+Sol:- [View Solution](../questions/question_7.py)
+
+2.WAP to count number of uppercase characters in given sentence.
+Sol:- [View Solution](../questions/question_8.py)
+
+3.WAP to count number of vowels in given sentence.
+Sol:- [View Solution](../questions/question_9.py)
+
+4.WAP to count frequency of each vowel in given sentence.
+Sol:- [View Solution](../questions/question_10.py)
+
+5.WAP to count number of special characters in given sentence.
+Sol:- [View Solution](../questions/question_11.py)
