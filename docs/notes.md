@@ -82,7 +82,7 @@ print(fruits)  # ['apple', 'banana', 'cherry']
 
 Inserts an element at a specific position.
 
-fruits.insert(1, "mango")
+fruits.insert(1, "mango")   
 print(fruits)  # ['apple', 'mango', 'banana']
 
 🧹 3. remove()
@@ -286,3 +286,25 @@ Sol:- [View Solution](../questions/question_10.py)
 
 5.WAP to count number of special characters in given sentence.
 Sol:- [View Solution](../questions/question_11.py)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# -------------------- Lab Work -------------------------#
+------Lab Question -----
+date : 31st October 2025 
+------------------------------------------------
+Write a program in python to create a list of 10 number  given by user and display 2nd and 3rd largest value without using sort function
+Sol:- [View Solution](../lab_work/question_1.py)
